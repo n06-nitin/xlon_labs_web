@@ -10,7 +10,7 @@ import DevDashboard from './pages/DevDashboard';
 
 // 1. Import the new pages
 import Missions from './pages/Missions';
-import ResearchLog from './pages/ResearchLog';
+import Blogs from './pages/ResearchLog';
 import Careers from './pages/Careers';
 
 export default function App() {
@@ -28,7 +28,7 @@ export default function App() {
             
             {/* 2. Map the routes to your actual components */}
             <Route path="/missions" element={<Missions />} />
-            <Route path="/updates" element={<ResearchLog />} />
+            <Route path="/updates" element={<Blogs />} />
             <Route path="/join" element={<Careers />} />
             
             {/* Secure Routes */}
