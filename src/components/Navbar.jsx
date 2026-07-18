@@ -9,7 +9,7 @@ import logo from '../assets/xlon_labs_icon.png';
 const navLinks = [
   { path: '/', label: 'Home' },
   { path: '/missions', label: 'Missions' },
-  { path: '/updates', label: 'Research Log' },
+  { path: '/updates', label: 'Blogs' },
   { path: '/join', label: 'Careers' },
 ];
 
@@ -84,7 +84,7 @@ export default function Navbar() {
           {!user ? (
             <motion.div variants={fadeDown}>
               <NavLink 
-                to="/login" 
+                to="/" 
                 className="px-6 py-3 border border-slate-700 text-xs uppercase tracking-[0.2em] text-slate-300 hover:bg-white hover:text-black hover:border-white transition-all duration-500 rounded-sm ml-4"
               >
                 Login
